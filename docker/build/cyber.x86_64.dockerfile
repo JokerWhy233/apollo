@@ -21,8 +21,6 @@ RUN apt update -y && \
     bc \
     gdb \
     uuid-dev \
-    python \
-    python-dev \
     python3 \
     python3-dev \
     qt5-default \

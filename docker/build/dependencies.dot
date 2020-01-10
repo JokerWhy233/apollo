@@ -9,7 +9,7 @@ digraph {
   "cyber" -> "infra";
   "cyber" -> "FastRTPS 1.5.0" -> "Fast CDR";
   "cyber" -> "POCO Foundation 50";
-  "cyber" -> "python2/3-dev";
+  "cyber" -> "python3-dev";
   "cyber" -> "uuid-dev";
 
   "modules" -> "multiple" -> "boost 1.54/1.65";
@@ -17,6 +17,8 @@ digraph {
 
   "modules" -> "perception" -> "cuda 10.0";
   "perception" -> "opencv 2.4.8";
+
+  "modules" -> "map" -> "tinyxml2 5.0.1";
 
   "offline" -> "bosfs 1.0.0";
 }
