@@ -60,7 +60,7 @@ cc_test(
         "//cyber:cyber_core",
         "//cyber/proto:unit_test_cc_proto",
         "@fastrtps",
-        "@gtest//:main",
+        "@com_google_googletest//:gtest_main",
     ],
 )
 

@@ -43,7 +43,7 @@ cc_test(
     srcs = ["timer_component_test.cc"],
     deps = [
         "//cyber",
-        "@gtest//:main",
+        "@com_google_googletest//:gtest_main",
     ],
 )
 

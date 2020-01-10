@@ -19,34 +19,20 @@
 # Fail on first error.
 set -e
 
-mkdir -p /home/tmp
-cd /home/tmp
+mkdir -p /home/libs
+cd /home/libs
 
-wget -O opencv-2.4.13.2.zip \
-    https://github.com/opencv/opencv/archive/2.4.13.2.zip
-wget -O googletest-release-1.8.0.tar.gz \
-    https://github.com/google/googletest/archive/release-1.8.0.tar.gz
-wget -O gflags-2.2.0.tar.gz \
-    https://github.com/gflags/gflags/archive/v2.2.0.tar.gz
-wget -O glog-0.3.5.tar.gz \
-    https://github.com/google/glog/archive/v0.3.5.tar.gz
-wget -O benchmark-1.1.0.tar.gz \
-    https://github.com/google/benchmark/archive/v1.1.0.tar.gz
-wget -O eigen-3.2.10.tar.gz \
-    https://bitbucket.org/eigen/eigen/get/3.2.10.tar.gz
-wget -O curlpp-0.8.1.tar.gz \
-    https://github.com/jpbarrette/curlpp/archive/v0.8.1.tar.gz
-wget -O yaml-cpp-0.5.3.zip \
-    https://github.com/jbeder/yaml-cpp/archive/yaml-cpp-0.5.3.zip
-wget -O qp-oases-3.2.1-1.zip \
-    https://github.com/ApolloAuto/qp-oases/archive/v3.2.1-1.zip
-wget -O proj.4-4.9.3.zip \
-    https://github.com/OSGeo/proj.4/archive/4.9.3.zip
-wget -O tinyxml2-5.0.1.zip \
-    https://github.com/leethomason/tinyxml2/archive/5.0.1.zip
-wget -O protobuf-3.3.0.tar.gz \
-    https://github.com/google/protobuf/releases/download/v3.3.0/protobuf-cpp-3.3.0.tar.gz
-wget -O v1.14.2.tar.gz \
-    https://github.com/grpc/grpc/archive/v1.14.2.tar.gz
-wget -O v1.11.tar.gz \
-    https://github.com/civetweb/civetweb/archive/v1.11.tar.gz
+wget -O bazel-federation-0.0.1.tar.gz \
+    https://github.com/bazelbuild/bazel-federation/archive/0.0.1.tar.gz
+wget -O rules_proto-97d8af4dc474595af3900dd85cb3a29ad28cc313.tar.gz \
+    https://github.com/bazelbuild/rules_proto/archive/97d8af4dc474595af3900dd85cb3a29ad28cc313.tar.gz
+wget -O abseil-cpp-20190808.tar.gz \
+    https://github.com/abseil/abseil-cpp/archive/20190808.tar.gz
+wget -O googletest-release-1.10.0.tar.gz \
+    https://github.com/google/googletest/archive/release-1.10.0.tar.gz
+wget -O gflags-2.2.2.tar.gz \
+    https://github.com/gflags/gflags/archive/v2.2.2.tar.gz
+wget -O glog-0.4.0.tar.gz \
+    https://github.com/google/glog/archive/v0.4.0.tar.gz
+wget -O styleguide-f704c352f4f0597d2bd8b85d089b093946ff75d7.tar.gz \
+    https://github.com/google/styleguide/archive/f704c352f4f0597d2bd8b85d089b093946ff75d7.tar.gz
