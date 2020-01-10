@@ -38,7 +38,7 @@ cc_test(
     deps = [
         "//cyber:cyber_core",
         "//cyber/proto:unit_test_cc_proto",
-        "@gtest",
+        "@com_google_googletest//:gtest",
     ],
 )
 
@@ -158,7 +158,7 @@ cc_test(
     deps = [
         "//cyber:cyber_core",
         "//cyber/proto:unit_test_cc_proto",
-        "@gtest",
+        "@com_google_googletest//:gtest",
     ],
 )
 
@@ -530,7 +530,7 @@ cc_test(
     deps = [
         "//cyber:cyber_core",
         "//cyber/proto:unit_test_cc_proto",
-        "@gtest",
+        "@com_google_googletest//:gtest",
     ],
 )
 
@@ -552,7 +552,7 @@ cc_test(
     deps = [
         "//cyber:cyber_core",
         "//cyber/proto:unit_test_cc_proto",
-        "@gtest",
+        "@com_google_googletest//:gtest",
     ],
 )
 
@@ -563,7 +563,7 @@ cc_test(
     deps = [
         "//cyber:cyber_core",
         "//cyber/proto:unit_test_cc_proto",
-        "@gtest",
+        "@com_google_googletest//:gtest",
     ],
 )
 

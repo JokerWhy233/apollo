@@ -12,11 +12,14 @@ RUN apt update -y && apt install -y \
 # Run installers.
 COPY installers /tmp/installers
 RUN bash /tmp/installers/install_bazel.sh
+RUN bash /tmp/installers/install_bazel_packages.sh
+RUN bash /tmp/installers/install_fast-rtps.sh
 
-# Other libs.
-#RUN apt update -y && apt install -y \
-#        uuid-dev \
-#        python3-dev && \
-#    apt clean && rm -rf /var/lib/apt/lists/*
+# Install other libs.
+RUN apt update -y && apt install -y \
+        libpoco-dev \
+        python3-dev \
+        uuid-dev && \
+    apt clean && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /apollo

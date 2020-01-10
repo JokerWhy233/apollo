@@ -34,5 +34,5 @@ wget -O gflags-2.2.2.tar.gz \
     https://github.com/gflags/gflags/archive/v2.2.2.tar.gz
 wget -O glog-0.4.0.tar.gz \
     https://github.com/google/glog/archive/v0.4.0.tar.gz
-wget -O styleguide-f704c352f4f0597d2bd8b85d089b093946ff75d7.tar.gz \
-    https://github.com/google/styleguide/archive/f704c352f4f0597d2bd8b85d089b093946ff75d7.tar.gz
+wget -O styleguide-159b4c81bbca97a9ca00f1195a37174388398a67.tar.gz \
+    https://github.com/google/styleguide/archive/159b4c81bbca97a9ca00f1195a37174388398a67.tar.gz

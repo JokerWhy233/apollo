@@ -21,7 +21,7 @@ digraph {
 
   "modules" -> "map" -> "tinyxml2 5.0.1";
 
-  "offline" -> "bosfs 1.0.0";
+  "offline" -> "bosfs";
   "offline" -> "vim";
   "offline" -> "gdb";
 }

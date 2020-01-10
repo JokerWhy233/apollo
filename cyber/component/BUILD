@@ -17,7 +17,7 @@ cc_test(
     srcs = ["component_test.cc"],
     deps = [
         "//cyber",
-        "@gtest",
+        "@com_google_googletest//:gtest",
     ],
 )
 
